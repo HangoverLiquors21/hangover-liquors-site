@@ -1,32 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Hangover Liquors</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hangover Liquors | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/chat.js" defer></script>
 </head>
 <body>
-<header>
-  <h1>Hangover Liquors</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="products.html">Products</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact</a>
-    <a href="order.html">Order Online</a>
-    <a href="reviews.html">Reviews</a>
-  </nav>
-</header>
-<main>
-  <h2>Welcome to Hangover Liquors!</h2>
-  <p>Your one-stop shop for the finest liquor selections since 2021.</p>
-</main>
-<button id="chatBtn">Chat with an Agent</button>
-<div id="chatPopup" class="hidden">
-  <p>Agent will be with you shortly...</p>
-</div>
-<script src="assets/js/script.js"></script>
+  <header>
+    <img src="images/logo.jpg" alt="Hangover Liquors Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="order.html">Online Ordering</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Welcome to Hangover Liquors</h1>
+      <p>Your go-to destination for premium spirits, wines, and more.</p>
+    </section>
+  </main>
+  <button id="chatButton">Chat with Agent</button>
+  <div id="chatPopup" class="chat-popup">
+    <div class="chat-header">Hangover Liquors Chat</div>
+    <textarea placeholder="Type your message..."></textarea>
+    <button class="send-btn">Send</button>
+  </div>
+  <footer>
+    <p>&copy; 2025 Hangover Liquors. All rights reserved.</p>
+  </footer>
 </body>
 </html>
